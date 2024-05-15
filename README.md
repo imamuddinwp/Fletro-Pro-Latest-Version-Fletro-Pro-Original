@@ -7,3 +7,6 @@ Fletro Pro Latest Version Free Download - [Fletro Pro Original]
 <hr>
 <a href="https://imamuddinwp.com/2024/05/fletro-pro-latest-version-free-download-fletro-pro-original.html" target="_blank"> <img src="https://github.com/imamuddinwp/Fletro-Pro-Latest-Version-Fletro-Pro-Original/blob/main/Fletro-Pro-New-Version-Free-Download.png" alt="Fletro-Pro-New-Version-Free-Download" /></a>
 <hr>
+<hr>
+<a href="https://imamuddinwp.com/2024/05/fletro-pro-latest-version-free-download-fletro-pro-original.html" target="_blank"> <img src="https://github.com/imamuddinwp/Fletro-Pro-Latest-Version-Fletro-Pro-Original/blob/main/Fletro-Pro-Original-Premium-Blogger-Template.png" alt="Fletro-Pro-Original-Version-Free-Download" /></a>
+<hr>
