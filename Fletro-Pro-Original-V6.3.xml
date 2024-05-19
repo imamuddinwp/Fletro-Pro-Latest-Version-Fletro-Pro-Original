@@ -1234,17 +1234,17 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
         <b:section cond='!data:view.isPreview' id='notif-widget' maxwidgets='1' showaddelement='false'>
           <b:widget id='HTML0' locked='true' title='Notification' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]--&gt;
+              <b:widget-setting name='content'><![CDATA[<!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]-->
 
-&lt;!--[ Alternatif content with button link ]--&gt;
-&lt;div class=&#39;ntfA&#39;&gt; 
-  &lt;span&gt;
+<!--[ Alternatif content with button link ]-->
+<div class='ntfA'> 
+  <span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&gt;Test link&lt;/a&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='#'>Test link</a>
 
-  &lt;/span&gt; 
-  &lt;!-- &lt;a href=&#39;https://www.techyjeeshan.xyz&#39;&gt;Get now!&lt;/a&gt; --&gt;
-&lt;/div&gt;</b:widget-setting>
+  </span> 
+  <!-- <a href='https://www.techyjeeshan.xyz'>Get now!</a> -->
+</div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <input class='ntfI hidden' id='forNft' type='checkbox'/>
@@ -1269,11 +1269,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               
                 <!--[ Header widget ]-->
                 <b:section class='headN' id='header-title' maxwidgets='1' showaddelement='false'>
-                  <b:widget id='Header1' locked='true' title='Demo Blog (Header)' type='Header' version='2' visible='true'>
+                  <b:widget id='Header1' locked='true' title='Testing Blog (Header)' type='Header' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='displayUrl'/>
                       <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                      <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+                      <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
                       <b:widget-setting name='useImage'>false</b:widget-setting>
                       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                       <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -1645,6 +1645,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                     <b:widget id='TextList000' locked='true' title='Header Icon' type='TextList' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='shownum'>3</b:widget-setting>
+                        <b:widget-setting name='item-4'>Mode</b:widget-setting>
+                        <b:widget-setting name='item-3'>Profile</b:widget-setting>
                         <b:widget-setting name='sorting'>NONE</b:widget-setting>
                         <b:widget-setting name='item-2'>Profile</b:widget-setting>
                         <b:widget-setting name='item-1'>Search</b:widget-setting>
@@ -1790,6 +1792,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
           <b:section class='secIn' id='scroll-menu' maxwidgets='1' showaddelement='false'>
             <b:widget id='LinkList001' locked='true' title='Scroll Menu' type='LinkList' version='2' visible='true'>
               <b:widget-settings>
+                <b:widget-setting name='text-10'>Topics 10</b:widget-setting>
+                <b:widget-setting name='shownum'>7</b:widget-setting>
+                <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                <b:widget-setting name='link-1'>#</b:widget-setting>
+                <b:widget-setting name='link-13'>/p/privacy-policy.html</b:widget-setting>
+                <b:widget-setting name='link-2'>#</b:widget-setting>
+                <b:widget-setting name='link-12'>/p/dmca.html</b:widget-setting>
+                <b:widget-setting name='link-0'>https://jago-dummy-01.blogspot.com/search/label/Adventure</b:widget-setting>
+                <b:widget-setting name='link-14'>/p/terms-and-conditions.html</b:widget-setting>
+                <b:widget-setting name='link-11'>#</b:widget-setting>
+                <b:widget-setting name='link-10'>#</b:widget-setting>
                 <b:widget-setting name='text-9'>Topics 10</b:widget-setting>
                 <b:widget-setting name='link-9'>#</b:widget-setting>
                 <b:widget-setting name='text-8'>Topics 09</b:widget-setting>
@@ -1807,10 +1820,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                 <b:widget-setting name='text-4'>Topics 05</b:widget-setting>
                 <b:widget-setting name='text-7'>Topics 08</b:widget-setting>
                 <b:widget-setting name='text-6'>Topics 07</b:widget-setting>
-                <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                <b:widget-setting name='link-1'>#</b:widget-setting>
-                <b:widget-setting name='link-2'>#</b:widget-setting>
-                <b:widget-setting name='link-0'>https://jago-dummy-01.blogspot.com/search/label/Adventure</b:widget-setting>
+                <b:widget-setting name='text-11'>Topics 10</b:widget-setting>
+                <b:widget-setting name='text-12'>DMCA</b:widget-setting>
+                <b:widget-setting name='text-13'>Privacy Policy</b:widget-setting>
+                <b:widget-setting name='text-14'>Terms and Conditions</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
                 <b:include name='content'/>
@@ -3423,15 +3436,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-1' maxwidgets='2' showaddelement='true'>
                 <b:widget id='HTML77' locked='false' title='Made with coffee by' type='HTML' version='2' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'>&lt;div class=&#39;abtT&#39;&gt;
-  &lt;h2 class=&#39;tl&#39;&gt;Jago Desain&lt;/h2&gt;
+                    <b:widget-setting name='content'><![CDATA[<div class='abtT'>
+  <h2 class='tl'>Jago Desain</h2>
 
-  &lt;!--[ Delete comment tag on section bellow and change data-src=&#39;#&#39; attribute with your logo url ]--&gt;
-  &lt;!-- &lt;img class=&#39;lazy&#39; alt=&#39;Jago Desain&#39; data-src=&#39;#&#39; src=&#39;data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=&#39;/&gt; --&gt;
+  <!--[ Delete comment tag on section bellow and change data-src='#' attribute with your logo url ]-->
+  <!-- <img class='lazy' alt='Jago Desain' data-src='#' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='/> -->
 
-&lt;/div&gt;
+</div>
 
-&lt;p class=&#39;abtD&#39;&gt;Mauris lacus dolor, ultricies vel sodales ac, egestas vel eros.&lt;/p&gt;</b:widget-setting>
+<p class='abtD'>Mauris lacus dolor, ultricies vel sodales ac, egestas vel eros.</p>]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <div class='widget-content abtU' expr:data-text='data:title'>
@@ -3444,20 +3457,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                     <b:widget-setting name='link-7'>https://www.reddit.com/ # Reddit</b:widget-setting>
                     <b:widget-setting name='link-5'>#testimonial-wrap</b:widget-setting>
                     <b:widget-setting name='link-6'>#main-wrapper</b:widget-setting>
-                    <b:widget-setting name='link-3'>#</b:widget-setting>
-                    <b:widget-setting name='link-4'>#</b:widget-setting>
+                    <b:widget-setting name='link-3'>https://www.linkedin.com/in/imamuddinwp</b:widget-setting>
+                    <b:widget-setting name='link-4'>https://www.youtube.com/@imamuddinwp</b:widget-setting>
                     <b:widget-setting name='text-1'>Instagram</b:widget-setting>
                     <b:widget-setting name='text-0'>Facebook</b:widget-setting>
-                    <b:widget-setting name='text-3'>Youtube</b:widget-setting>
+                    <b:widget-setting name='text-3'>LinkedIn</b:widget-setting>
                     <b:widget-setting name='text-2'>Twitter</b:widget-setting>
                     <b:widget-setting name='text-5'>Reviews</b:widget-setting>
-                    <b:widget-setting name='text-4'>LinkedIn</b:widget-setting>
+                    <b:widget-setting name='text-4'>Youtube</b:widget-setting>
                     <b:widget-setting name='text-7'>reddit</b:widget-setting>
                     <b:widget-setting name='text-6'>Blog</b:widget-setting>
+                    <b:widget-setting name='shownum'>4</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
-                    <b:widget-setting name='link-2'>#</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.instagram.com/imamuddinwp</b:widget-setting>
+                    <b:widget-setting name='link-2'>https://twitter.com/imamuddinweb</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.facebook.com/imamuddinwpbd</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='content'/>
@@ -3481,13 +3495,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-2' maxwidgets='2' showaddelement='true'>
                 <b:widget id='LinkList2' locked='false' title='Company' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
+                    <b:widget-setting name='link-3'>/404</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                    <b:widget-setting name='link-4'>#</b:widget-setting>
                     <b:widget-setting name='text-1'>Blog</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/</b:widget-setting>
                     <b:widget-setting name='text-0'>About</b:widget-setting>
                     <b:widget-setting name='link-2'>javascript:;</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='text-3'>404</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/about-me-who-am-i.html</b:widget-setting>
                     <b:widget-setting name='text-2'>Spotify</b:widget-setting>
+                    <b:widget-setting name='text-4'>Others</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3511,11 +3529,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-3' maxwidgets='2' showaddelement='true'>
                 <b:widget id='LinkList3' locked='false' title='Product &amp;amp; Service' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
+                    <b:widget-setting name='link-3'>false</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                     <b:widget-setting name='text-1'>Other Product</b:widget-setting>
-                    <b:widget-setting name='link-1'>https://www.tech4era.com/</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/p/sitemap.html</b:widget-setting>
                     <b:widget-setting name='text-0'>Blogger Theme</b:widget-setting>
-                    <b:widget-setting name='link-0'>https://www.tech4era.com/</b:widget-setting>
+                    <b:widget-setting name='link-2'>Show More</b:widget-setting>
+                    <b:widget-setting name='text-3'>darkMode</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/sitemap.html</b:widget-setting>
+                    <b:widget-setting name='text-2'>showMoreText</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3541,9 +3563,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                     <b:widget-setting name='text-1'>Documentation</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/</b:widget-setting>
                     <b:widget-setting name='text-0'>Contact</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/contact.html</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3658,9 +3680,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
       <b:section class='erroC' cond='data:view.isLayoutMode or data:view.isError' id='error-404' showaddelement='false'>
         <b:widget id='HTML404' locked='true' title='Take me back' type='HTML' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;h3&gt;&lt;span&gt;404&lt;/span&gt;Something Wrong!&lt;/h3&gt;
+            <b:widget-setting name='content'><![CDATA[<h3><span>404</span>Something Wrong!</h3>
 
-&lt;p&gt;The page you&#39;ve requested can&#39;t be found. Why don&#39;t you browse around?&lt;/p&gt;</b:widget-setting>
+<p>The page you've requested can't be found. Why don't you browse around?</p>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <data:content/>
